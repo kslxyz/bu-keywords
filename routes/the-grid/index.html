@@ -1,0 +1,547 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="assets/style.css" />
+	<script src="js/jquery-3.2.1.min.js"></script>
+	<title>THE GRID SYSTEM</title>
+
+	<script>
+
+		function shrinkAllButOne() {
+			$('#two').removeClass('temporary');
+			$('#three').removeClass('temporary');
+			$('#four').removeClass('temporary');
+		}
+
+		function shrinkAllButTwo() {
+			$('#one').removeClass('temporary');
+			$('#three').removeClass('temporary');
+			$('#four').removeClass('temporary');
+		}
+
+		function shrinkAllButThree() {
+			$('#one').removeClass('temporary');
+			$('#two').removeClass('temporary');
+			$('#four').removeClass('temporary');
+		}
+
+		function shrinkAllButFour() {
+			$('#one').removeClass('temporary');
+			$('#two').removeClass('temporary');
+			$('#three').removeClass('temporary');
+		}
+
+		function revertAllButOne() { $('#one').addClass('temporary'); }
+		function revertAllButTwo() { $('#two').addClass('temporary'); }
+		function revertAllButThree() { $('#three').addClass('temporary'); }
+		function revertAllButFour() { $('#four').addClass('temporary'); }
+
+		function colorChange() {
+			$("#one").css("color", "white");
+			$("#two").css("color", "white");
+			$("#three").css("color", "white");
+			$("#four").css("color", "white");
+		}
+
+		function revert() {
+			$("#one").css("color", "black");
+			$("#two").css("color", "black");
+			$("#three").css("color", "black");
+			$("#four").css("color", "black");
+		}
+
+	</script>
+
+	<style>
+
+
+		body {
+			color: black;
+			background-color: #b0ffde;
+			font-family: 'Helvetica', sans-serif, 'Arial';
+			font-size: 1.25vw;
+			line-height: 1.15;
+			text-transform: lowercase;
+			overflow: scroll;
+		}
+
+		p + p {
+			text-indent: 1.25em;
+		}
+
+		p.date, p.event {
+			text-indent: 0;
+		}
+
+		a, a:visited {
+			color: blue;
+			text-decoration: none;
+		}
+
+		a:hover, a:active {
+			color: red;
+		}
+
+		em {
+			font-style: italic;
+		}
+
+		span.uppercase {
+			text-transform: uppercase;
+		}
+
+		li {
+			text-indent: -1.25em;
+			padding: 0 1.25em;
+			padding-bottom: 0;
+			list-style: none;
+		}
+
+		img {
+			width: 100%;
+			max-width: 100%;
+
+		}
+
+		.logo {
+			/*padding: 1.25em 0;*/
+			/*padding-bottom: 0;*/
+		}
+
+		.logo img {
+			padding-top: 1em;
+			max-width: 50%;
+		}
+
+		.wrapper, .column {
+			background-color: transparent;
+			min-height: 100vh;
+		}
+
+		.wrapper {
+			max-width: 100%;
+			display: flex;
+			flex-direction: row;
+			position: relative;
+			top: 0;
+			left: 0;
+			margin: 1.5375vw 1.0375vw;
+			margin-bottom: 1.9vw;
+		}
+
+		.column {
+			width: 25%;
+			margin: 0 1.0375vw;
+			-webkit-transition: width .75s;
+			-moz-transition: width .75s;
+			-ms-transition: width .75s;
+			-o-transition: width .75s;
+			transition: width .75s;
+		}
+
+		.temporary {
+			width: 50%;
+			font-size: 2.2vw;
+			line-height: 1.1;
+		}
+
+		.wrapper > div:hover {
+			width: 50%;
+			font-size: 2.2vw;
+			line-height: 1.1;
+		}
+
+
+
+		div.wrapper > div:nth-of-type(1) a:hover:before {
+			color: white;
+			background-color: black;
+			-webkit-transition: all 0;
+			-moz-transition: all 0;
+			-ms-transition: all 0;
+			-o-transition: all 0;
+			transition: all 0;
+		}
+
+		div.wrapper > div:nth-of-type(2) a:hover:before {
+			color: white;
+			background-color: black;
+			-webkit-transition: all 0;
+			-moz-transition: all 0;
+			-ms-transition: all 0;
+			-o-transition: all 0;
+			transition: all 0;
+		}
+
+		div.wrapper > div:nth-of-type(3) a:hover:before {
+			color: white;
+			background-color: black;
+			-webkit-transition: all 0;
+			-moz-transition: all 0;
+			-ms-transition: all 0;
+			-o-transition: all 0;
+			transition: all 0;
+		}
+
+		div.wrapper > div:nth-of-type(4) a:hover:before {
+			color: white;
+			background-color: black;
+			-webkit-transition: all 0;
+			-moz-transition: all 0;
+			-ms-transition: all 0;
+			-o-transition: all 0;
+			transition: all 0;
+		}
+
+		.padding-bottom {
+			padding-bottom: 1em;
+		}
+
+		.padding-0 {
+			padding: 0;
+		}
+
+		.superscript {
+			font-size: .6em;
+			vertical-align: top;
+			position: relative;
+			top: .065em;
+		}
+
+/*		#kuleuven {
+			width: 0px;
+		    height: 0px;
+		    background: url('images/1/logos/KULEUVEN_RGB_LOGO.jpg');
+		}
+
+		#kuleuven:hover {
+		    background: url('images/1/logos/inverse/KULEUVEN_RGB_LOGO.jpg');
+		}*/
+
+
+
+
+
+
+
+/* Create two equal columns that floats next to each other */
+  .mycolumn {
+    float: left;
+    width: 50%;
+    padding: 10px;
+  }
+
+  .mycolumn img {
+    margin-top: 2px;
+    width:100%;
+    height:100%;
+    object-fit:cover;
+  }
+
+/* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  * {
+  box-sizing: border-box;
+  }
+
+/*square columns*/
+
+.sqcolumn {
+    float: left;
+    width: 50%;
+    padding: 10px;
+  }
+  .sqcolumn img {
+    margin-top: 2px;
+    width:290px;
+    height:290px;
+    object-fit:cover;
+  }
+
+
+
+
+
+
+
+
+	</style>
+ <link rel="stylesheet" href="../../assets/evergreen.css">
+</head>
+
+<body>
+	<div class="evergreen">
+		<a href="../../index.html">BU CFA AR 226 Sophomore Studio keywords</a>
+		<a href="../../about.html">About</a>
+	</div>
+	<div class="wrapper">
+
+		<!-- first column -->
+		<div id="one" class="column" onmouseover="shrinkAllButOne()" onmouseout="revertAllButOne()">
+
+			<div class="padding-bottom">
+				<p>
+					<h1><span class="uppercase">THE GRID</span></h1>
+				</p>
+				<p>
+					<li><small>from the perspective of a new</small></li>
+					<li><small>graphic designer and learner</small></li>
+					<p><footer><small>Entry by Vincent Liu, 4/19/2022<br>with credit to <a href="http://www.negotiating-ungers.eu/" target="_blank">Negotiating Ungers</a></small></footer></p>
+
+				</p>
+			</div>
+
+				<p>
+					The grid is used as a framework for design. You don’t have to strictly 
+					follow the grid for everything.
+				</p>
+
+			<div class="padding-bottom">
+				<p class="caption">
+					It was interesting to discover that most designs have an underlying structure to them. 
+				</p>
+			</div>
+			
+			
+			
+			<div class="row"> 
+  <div class="sqcolumn"> 
+  <img src="assets/grid.jpeg">
+  <img src="assets/g8.png">
+  <img src="assets/g2.png">
+  <img src="assets/g0.png">
+
+  </div>
+  
+  <div class="sqcolumn"> 
+  <img src="assets/g3.png">
+  <img src="assets/g4.png">
+  <img src="assets/g5.png">
+  <img src="assets/g17.png">
+  </div>
+  
+</div>		
+			
+			
+			<div class="padding-bottom">
+				<p>
+					When first discovering the grid in class, it felt very safe and easy to use. 
+				</p>
+			</div>
+			<div class="padding-bottom">
+				<img src="assets/t1.png">
+				<p class="caption">
+					As long as everything aligned on one of the grid lines, the design was going to work.
+				
+					But the grid is also limiting, acting as a constraint. 
+				</p>
+            </div>
+				
+				
+			
+			<div class="padding-bottom">
+				<img src="assets/t2.png">
+				<p class="caption">
+					When you starting trying to fill all the white spaces within the grid, that’s when it starts to lose its magic.
+				</p>
+			</div>
+			
+		</div>
+		<!-- end first column -->
+
+		<!-- second column -->
+		<div id="two" class="column" onmouseover="shrinkAllButTwo()" onmouseout="revertAllButTwo()">
+
+			<div class="padding-bottom">
+				<p>
+					<span class="uppercase">EXAMPLES</span>
+				</p>
+			</div>
+				<p class="event padding-bottom">
+					<a target="_blank" href="https://www.typographicposters.com/wolfgang-weingart"><span class="uppercase">wolfgang weingart</span></a>'s creative liberities with the grid:
+				</p>
+				
+				
+<div class="row"> 
+  <div class="mycolumn"> 
+  <img src="assets/g14.png">
+  <img src="assets/g11.png">
+  </div>
+  
+  <div class="mycolumn"> 
+  <img src="assets/g13.png">
+  <img src="assets/g12.png">
+  </div>
+  
+</div>
+
+				
+				
+					<div class="padding-bottom">
+						<p class="caption">
+							a more contemporary example:
+						</p>
+					</div>
+		
+		
+					<div class="padding-bottom">
+<div class="row"> 
+  <div class="mycolumn"> 
+  <img src="assets/image5.png">
+
+  </div>
+  
+  <div class="mycolumn"> 
+  <img src="assets/image8.png">
+  </div>
+  
+</div>
+						<p class="caption">
+							An example of creative grid usage.
+						</p>
+					</div>					
+					
+					<div class="padding-bottom">						
+						
+						
+<div class="row"> 
+  <div class="mycolumn"> 
+  <img src="assets/g18.png">
+  <img src="assets/g23.png">
+
+
+  </div>
+  
+  <div class="mycolumn"> 
+  <img src="assets/g22.png">
+  <img src="assets/g19.jpeg">
+
+  </div>
+  
+</div>
+						<p class="caption">
+							<a target="_blank" href="https://www.artic.edu/artists/8871/dan-friedman"><span class="uppercase">Dan Friedman</span></a> posters that break the grid system.
+						</p>
+					</div>
+		</div>
+		
+		<!-- end second column -->
+
+		<!-- third column -->
+		<div id="three" class="column" onmouseover="shrinkAllButThree()" onmouseout="revertAllButThree()">
+
+			<div class="padding-bottom">
+				<p>
+					<span class="uppercase">Breaking the Grid</span>
+					<br>
+					<br>
+					All of your work is essentially squished into <span class="uppercase">this</span> large rectangle.
+					<br> 
+					<br>All of the ideas and forms are governed by a larger system.
+					<br>
+					<br>The grid is helpful to use when starting a new design, to act as an outline when there is none.
+				        However, overly relying on the grid can make your designs very rigid.
+					    <br>
+					    <br>Everything will be confined into small blocks. 
+			
+					    <br>
+					    <br>There is a lack of movement or motion.
+				
+				        <br>
+				        <br>Everything is TOO perfect.
+				        <br>
+				        It’s nice to find a balance between the two.
+				        For example, overlaying forms or typography can help to distort the grid.
+				        <br>
+				        <br>
+				        The grid should be more of a suggestion, rather than the end all be all.
+				     	Nothing should get between a maker’s creative decisions and the execution of it.
+				        <br>
+				        <br>
+				        That intuitive gut feeling is a designer’s most valuable asset, good things always come out of following it.
+				        <br>
+				        <br>
+				        Allow the grid to give structure to your work, but do not let it control how your work will turn out.
+				        <br>
+				        <br>
+				        <br>
+				        Putting it into practice in my own work:
+				        </p>
+				<div class="padding-bottom">
+				<img src="assets/t4.png">
+				<img src="assets/t5.png">
+				<img src="assets/t6.png">
+				<img src="assets/t7.png">
+				<img src="assets/t8.png">
+				</div>
+				
+				
+			</div>
+			
+		</div>
+		<!-- end third column -->
+
+		<!-- fourth column -->
+		<div id="four" class="column" onmouseover="shrinkAllButFour()" onmouseout="revertAllButFour()">
+			<p class="padding-bottom">
+				 <h2><span class="uppercase">Some of my own RULES regarding the GRID</span></h2>
+				 <br>
+				 
+			</p>
+			<div class="padding-bottom">
+				<p class="caption">
+					1. Don’t detest the grid, it’s <span class="uppercase">useful</span>.
+				</p>
+			</div>
+			<div class="padding-bottom">
+				<p>
+					2. <span class="uppercase">Don’t rely</span> on the grid too much.
+				</p>
+			</div>
+			<div class="padding-bottom">
+				<p class="caption">
+					3. Feel <span class="uppercase">safe</span> while working with the grid.
+				</p>
+			</div>
+			<div class="padding-bottom">
+				<p>
+					4. <span class="uppercase">Break</span> the grid when needed, it’s quite <span class="uppercase">brittle</span>.
+				</p>
+			</div>
+			<div class="padding-bottom">
+				<p>
+					5. <span class="uppercase">Follow</span> that <span class="uppercase">gut</span> feeling.
+				</p>
+			</div>
+			<div class="padding-bottom">
+				<p>
+					6. Your work should always be <span class="uppercase">YOUR</span> work.
+				</p>
+			</div>
+			<div class="padding-bottom">
+				<p class="caption">
+					7. Allow the grid to <span class="uppercase">give structure</span> to your work, but do not <span class="uppercase">let it control</span> how your work will turn out.
+				</p>
+			</div>
+
+
+
+		</div>
+		<!-- end fourth column -->
+
+	</div>
+	<!-- end wrapper -->
+	<div class="evergreen">
+		<a href="../fierce/index.html">fierce</a>
+		<a class="letter">grid</a>
+		<a href="../harmony/index.html">harmony</a>
+	  </div>
+</body>
+</html>

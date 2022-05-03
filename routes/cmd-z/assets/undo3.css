@@ -1,0 +1,142 @@
+/* undo #4 */
+
+/* entire page starts */
+* {
+margin:0; 
+padding:0; 
+box-sizing: border-box;
+}
+
+body {
+font-family: consolas, "Andale Mono WT", monospace;
+background-color:  white;
+}
+
+::selection {
+color: #ff00ff;
+background: hsla(180, 100%, 50%, 33%);
+}
+/* entire page ends */
+
+/* header starts */
+header {
+background-color: white;
+color: black;
+font-size: calc(6px + 2vw); 
+text-align: center; 
+padding: 1%;
+border-bottom: black solid 3px;
+}
+
+header p {
+padding-top: 0;
+padding-bottom: 1%
+}
+
+header h1 {
+font-size: calc(90px + 2vw);
+}
+
+.home {
+text-decoration: none;
+color: black;
+}
+/* header ends */
+
+/* button column starts */
+.column-left {
+float: left; 
+width: 20%;
+text-align: center;
+}
+
+.button {
+background-color: black;
+border: solid black 3px;
+color: white;
+padding: 12% 14% 12% 12%;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: calc(9px + 2vw);
+}
+
+.button:hover {
+background-color: white;
+color: black;
+}
+/* button column ends */
+
+/* main body starts */ 
+.row-body {
+float: left; 
+width: 100%;
+padding: 3%;
+}
+
+.column-body {
+float: left; 
+width: 78%; 
+background-color: ; 
+border-left: ;
+}
+
+p {
+padding-top: 2%;
+}
+
+#body1 {
+font-size: calc(7px + 1vw);
+}
+
+#body2 {
+padding: 2% 0;
+font-size: calc(7px + 1vw);
+}
+
+#body3 {
+padding: 2% 0;
+font-size: calc(7px + 1vw);
+}
+
+#body4 {
+padding-top: 2%;
+font-size: calc(7px + 1vw);
+}
+/* main body ends */
+
+/* footer start */
+footer {
+clear: both;  
+text-align: center; 
+padding: 1% 0% 4% 0%;
+font-size: calc(3px + 1vw);
+}
+
+footer p {
+padding: 1%;
+}
+/* footer end */
+
+/*  phone/tablet screens */
+@media screen and (max-width: 992px) {
+.row-body {
+float: none; 
+width: 100%;}
+
+.column-left {
+float: none;
+width: 100%;
+text-align: center;
+padding-bottom: 3%;
+}
+
+.column-body {
+float: none; 
+width: 100%;}
+
+.button {
+padding: 3%;
+} 
+}/* media */
+/* phone/tablet screens end */

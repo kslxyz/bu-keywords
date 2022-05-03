@@ -1,0 +1,14 @@
+* {color: #1a1a1a;}
+
+body {text-align: center;
+	 margin-top: 25%;
+	 margin-bottom: 25%;}
+	 
+h3 {font-weight: normal;}
+
+p {font-style: italic;}
+
+.story {border: 5px double #ff1a3c;
+		margin: 25%;
+		padding-top: 15px;
+		padding-bottom: 15px;}

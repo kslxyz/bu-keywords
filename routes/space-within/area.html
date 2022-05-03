@@ -1,0 +1,63 @@
+<!Doctype html>
+<html lang="en">
+  <head>
+  	<meta charset="utf-8">
+  	<title>Area</title>
+    <link rel="stylesheet" type="text/css" href="assets/style.css" />
+  </head>
+<style>
+body {
+  font-family: 'Trebuchet MS', sans-serif;
+}
+body {
+  font-family: 'Trebuchet MS', sans-serif;
+}
+.container {
+  position: absolute;
+  width: 100%;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0px;
+  bottom: 0;
+  left: -10px;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-image: url(images/area.jpg);
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+</style>
+  <body>
+  <div class="head">
+  <h1></h1>
+  <h2 id='area'>AREA</h2>
+</div> <!--end class head -->
+  		<div class="image-holder">
+  <div class="offer-image offer-1">							
+    <div class="overlay-black"></div>
+    <h3 class="offer-image-title">within</h3>							
+  </div>
+</div>
+
+<div class="container">
+  <img src="img_avatar.png" alt="8" class="image">
+  <div class="overlay">
+    <div class="text">8</div>
+  </div>
+</div>
+ 	<a href="index.html" style="position: absolute; left: 700px; top: 50px; height: 50px; width: 200px;">6</a>
+
+  </body>
+</html>  

@@ -1,0 +1,43 @@
+body{
+	background-image: url("images/home.png");
+	background-size: cover;
+	background-attachment: scroll;
+	background-repeat: no-repeat;
+	background-color: #998675;
+}
+li{
+	list-style-type: none;
+	display: inline;
+	padding-left: 6vw;
+	padding-right: 6vw;
+	font-size: 2vw;
+	font-family: "Gill Sans" , "Franklin Gothic Medium", sans-serif;
+	max-width: 100%;
+
+}
+#go{
+	text-align: center;
+	padding-top: 40vw;
+	position: relative;
+}
+a{
+	text-decoration: none;
+	color: #EED7CE;
+}
+
+title{
+	font-size: 4vw;
+}
+
+#title{
+font-family: "Gill Sans" , "Franklin Gothic Medium", sans-serif;
+  margin-left: 53vw; display: inline;
+  position: absolute;
+  margin-top: 5.5vw;
+  font-size: 3vw;
+  text-align: center;
+  color: #FBB03B;
+}
+ footer {font-family: "Gill Sans" , "Franklin Gothic Medium", sans-serif; background-color: #29ABE2; clear:both; padding: 2vw; text-align: center; margin-top: 8vw; max-width: 100%;}
+
+ .footer{color:white;}

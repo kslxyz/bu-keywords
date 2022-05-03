@@ -1,0 +1,222 @@
+@charset "UTF-8";
+
+/*
+  Main Styles
+-----------------------*/
+body{  
+  
+}
+
+img {
+
+}
+/*
+h2 {
+  font-size:400px;
+  position: absolute;
+  text-align: left;
+  letter-spacing: 50px;
+  width: 500px;
+  border: 15px solid black;
+  padding: 50px;
+  margin: 500px;
+  
+  h1{
+  font-size:400px;
+  position: absolute;
+  text-align: left;
+  letter-spacing: 50px;
+  width: 500px;
+  
+}
+-----------------------*/
+
+
+  h3{
+  font-size:100px;
+  position: absolute;
+  text-align: center;
+  letter-spacing: 50px;
+  width: 500px;
+  left: 430px;
+  }
+  
+	h2{
+  font-size:70px;
+  position: absolute;
+  text-align: center;
+  letter-spacing: 0px;
+  width: 100%;
+  left: 8px;
+  top: 750px;
+  }
+  
+  p{
+  font-size:30px;
+  position: absolute;
+  text-align: center;
+  letter-spacing: 10px;
+  top: 850px;
+  width: 100%;
+  left: 0px;
+  }
+  
+
+a:hover {
+    color: red;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    }
+/*
+  .image-holder{
+	width:275px;
+	height:274px;
+	display:inline-block;	
+	position:relative; 
+	z-index:13;
+	background-color:blue;
+	margin-left:20px;
+	margin-right:20px;
+	margin-bottom:20px;
+}
+h3.offer-image-title{
+	color:black;
+	border:0;
+	text-align:center;
+	font-size:36px;
+	display:inline-block;
+	padding:0;
+	margin:0;
+	padding-top:32%;	
+	position:relative;
+	z-index:15;
+}
+.offer-image{
+	width:100%;
+	height:100%;
+	position:relative;
+}
+.offer-1{	
+	background-image: url(http://www.wnd.com/files/2015/03/chuck_norris300x300-275x275.jpg);
+}
+.overlay-black{
+	background-color:black;
+	opacity:0.5;
+	position:relative;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+	z-index:14;
+}
+
+/*
+overlay
+-----------------------*/
+* {margin:0;}
+
+.head {
+ font-size:400px;
+  position: absolute;
+  letter-spacing: 50px;
+  width: 70px;
+  height: 70px;
+  border: 15px solid black;
+  padding: 200px;
+  margin: 200px;
+  left: 250px;
+  
+}
+
+.square {
+ font-size:400px;
+  position: absolute;
+  letter-spacing: 50px;
+  width: 70px;
+  height: 70px;
+  border: 15px solid black;
+  padding: 200px;
+  margin: 200px;
+  left: 250px;
+  
+}
+
+
+#space {
+  position: absolute;
+  top: 10px; left: -475px;
+  margin: 0;
+  font-size:400px;
+  text-align: center;
+  letter-spacing: 80px;
+  }
+  
+#shape {
+  position: absolute;
+  top: 10px; left: -475px;
+  margin: 0;
+  font-size:400px;
+  text-align: center;
+  letter-spacing: 65px;
+  }
+
+#position {
+  position: absolute;
+  top: 10px; left: -475px;
+  margin: 0;
+  font-size:400px;
+  text-align: center;
+  letter-spacing: -40px;
+  }
+  
+#area {
+  position: absolute;
+  top: 10px; left: -460px;
+  margin: 0;
+  font-size:400px;
+  text-align: center;
+  letter-spacing: 150px;
+  }
+
+#corner{
+  position: absolute;
+  top: 10px; left: -475px;
+  margin: 0;
+  font-size:400px;
+  text-align: center;
+  letter-spacing: -15px;
+  }
+
+#enter{
+  position: absolute;
+  top: 10px; left: -475px;
+  margin: 0;
+  font-size:400px;
+  text-align: center;
+  letter-spacing: 55px;
+  }
+
+#text{
+  position: absolute;
+  top: 0px; left: -20px;
+  margin: 0;
+  font-size:400px;
+  text-align: center;
+  letter-spacing: 5px;
+  }
+
+/*
+  outlines
+-----------------------*/
+h2:hover { color: white;
+	font-size: 40px;
+	text-shadow: -1px 1px 0 #000,
+				  1px 1px 0 #000,
+				 1px -1px 0 #000;
+				-1px -1px 0 #000;
+				}
+  

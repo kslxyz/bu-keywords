@@ -1,0 +1,70 @@
+@charset "UTF-8";
+
+/*
+  Main Styles
+-----------------------*/
+body{  
+	font-family: 'Libre Bodoni', serif;
+	font-size: 18px;
+	font-style: normal;
+}
+
+img {
+
+}
+
+p {
+
+}
+
+a {
+    
+}
+
+h1 {
+	font-size: 40px;
+	font-style: normal;
+	font-family: 'Libre Bodoni', serif;
+}
+
+/*
+  Extras...
+-----------------------*/
+
+#word {
+  	font-size: 20px;
+	font-style: normal;
+	font-family: 'Libre Bodoni', serif;
+	margin-left: 5%;
+	margin-right: 50%;
+	
+	text-align:justify left;
+}
+#paragraphtwo {
+	font-size: 20px;
+	font-style: normal;
+	font-family: 'Libre Bodoni', serif;
+	margin-left: 5%;
+	margin-right: 50%;
+	
+	text-align:justify left;
+ }
+#paragraphthree  {
+	font-size: 20px;
+	font-style: normal;
+	font-family: 'Libre Bodoni', serif;
+	margin-left: 5%;
+	margin-right: 50%;
+	
+	text-align:justify left;
+} 
+#paragraphfour { 
+	font-size: 20px;
+	font-style: normal;
+	font-family: 'Libre Bodoni', serif;
+	margin-left: 5%;
+	margin-right: 50%;
+	
+	text-align:justify left;
+}
+

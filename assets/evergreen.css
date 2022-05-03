@@ -1,0 +1,86 @@
+@font-face {
+    font-family: '40069';
+    src: url('40069.ttf');
+}
+
+.evergreen {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: '40069', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1pt;
+    width: 100vw;
+}
+
+.evergreen a {
+    text-decoration: none;
+    color: #000;
+    position: initial;
+    padding: 0;
+    letter-spacing: initial;
+    transform: unset;
+    text-align: initial;
+}
+
+.evergreen a:not(.letter):hover {
+    color: blue;
+}
+
+div.evergreen {
+    display: flex;
+    position: fixed;
+    z-index: 10005;
+}
+
+div.evergreen a {
+    font-size: 14pt;
+    font-family: '40069', sans-serif;
+}
+
+div.evergreen:first-of-type {
+    padding: 1.5vw 2vw 0 2vw;
+    justify-content: space-between;
+    top: 0;
+    left: 0;
+}
+
+div.evergreen:last-of-type {
+    bottom: 0;
+    left: 0;
+    padding: 0vw 2vw 1.5vw 2vw;
+}
+
+div.evergreen:last-of-type a {
+    flex: 1;
+}
+
+div.evergreen .letter {
+    text-align: center;
+}
+
+div.evergreen a:nth-of-type(3) {
+    text-align: right;
+}
+
+div.evergreen a::before, div.evergreen a::after {
+    position: initial;
+    width: unset;
+    height: unset;
+    transition: unset;
+    border: none;
+}
+
+div.evergreen .letter::before {
+    content: '\0076';
+    text-transform: lowercase;
+}
+
+div.evergreen .letter::after {
+    content: '\0076';
+    text-transform: lowercase;
+}
+
+.evergreen a:not(.letter):hover:before {
+    content: '\005C';
+} 

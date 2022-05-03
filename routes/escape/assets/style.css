@@ -1,0 +1,52 @@
+@charset "UTF-8";
+
+/*
+  Main Styles
+-----------------------*/
+body{  
+	font-family: 'Helvetica Neue';
+	background-color:#F1E532;
+	margin-left: 5%;
+	margin-right: 5%;
+}
+
+
+h1 {
+font-family: 'Helvetica Neue';
+font-size: 17vw;
+}
+
+#word{
+font-family: 'Helvetica Neue';
+font-size: 8vw;
+margin-top: 400px;
+margin-bottom: 400px;
+}
+
+.caption {
+	margin-top: 20px;
+	margin-left: 20%;
+	margin-right: 20%;
+	font-size: 1.5vw;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+}
+
+p {
+	font-size: 4vw;
+	margin-top: 200px;
+	margin-bottom: 200px;
+}
+
+a {
+    
+}
+
+footer {
+	margin-bottom: 50px;
+	}

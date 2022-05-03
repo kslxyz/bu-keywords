@@ -1,0 +1,77 @@
+@charset "UTF-8";
+
+/*
+  Main Styles
+-----------------------*/
+
+.container {
+  padding: 1vw;
+  position: relative;
+  float: left; 
+  width:31%;
+}
+
+body{ padding: 2vw; 
+font-family: Verdana, Calibri, Futura, san-serif; 
+background-color: black; 
+color: yellow  
+  
+}
+
+.image {
+  display: inline;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: auto;
+  width: 100%;
+  opacity: 0;
+  transition: .2s ease;
+  background-color: #000000;
+}
+
+.container:hover .overlay {
+  opacity: 0.8;
+}
+
+.text {
+  color: white;
+  font-size: 3vw;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+h1{ font-size: 10vw
+
+
+}
+
+p { font-size: 1.5vw;
+    color: white;
+}
+
+br {}
+
+a {
+    
+}
+
+/*
+  Extras...
+-----------------------*/
+
+#word {
+  
+}

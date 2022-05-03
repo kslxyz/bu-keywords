@@ -1,0 +1,79 @@
+@charset "UTF-8";
+
+/*
+  Main Styles
+-----------------------*/
+a{
+  color:  white;
+}
+
+#circle1{
+  border-style: none; float: left; margin-top:13vw; margin-left:10vw;height: 14vw;
+}
+
+#cross1{
+  border-style: none; float: right; padding-bottom: 5vw;height: 18vw;
+}
+
+#triangle1{
+  border-style: none; float: right; margin-top:13vw; margin-right:10vw; height: 14vw;
+}
+
+#square1{
+  border-style: none; float: left; margin-top:3vw; height: 14vw;
+}
+
+#circle2{
+  border-style: none; margin-left:14vw; height: 14vw;
+}
+#cross2{
+  border-style: none; float: right; margin-right:20vw; margin-top: 10vw;height: 14vw;
+}
+
+#triangle1{
+  border-style: none; float: right; margin-top:13vw; margin-right:10vw;height: 14vw;
+}
+#box1{
+  margin-left: 50%; margin-top:3vw;
+}
+
+title{
+  font-size: 60vw;
+}
+
+header{
+  background-color: #006E7F;;
+}
+
+
+#word{
+  width: 30vw;
+  height: 30vw;
+  background-color: #FFD59E;
+  overflow: scroll;
+}
+
+#image{
+}
+
+body{ background-color: #FCD900;
+  
+}
+
+img {
+
+  display: inline;
+
+}
+
+p {
+}
+
+a {
+    
+}
+
+/*
+  Extras...
+-----------------------*/
+

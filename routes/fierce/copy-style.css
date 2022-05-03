@@ -1,0 +1,63 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: :white;
+    display:flex;
+    
+}
+
+.fcontainer{
+    width:1280;
+    height:650px;
+    position:relative;
+}
+
+.fcontainer img{
+width:100%;
+height:100%;    
+}
+
+.top-image{
+    position:absolute;
+    left:0;
+    top:0;
+    opacity:0;
+    transition: all 0.7s ease;
+}
+
+.top-image:hover{
+ opacity: 1;   
+}
+
+
+
+.icontainer{
+    width:1280;
+    height:708px;
+    position:relative;
+}
+
+.icontainer img{
+width:100%;
+height:100%;    
+}
+
+.top-image-i{
+    position:relative;
+    left:0;
+    top:0;
+    opacity:0;
+    transition: all 0.7s ease;
+}
+
+.top-image-i:hover{
+ opacity: 1;   
+}
+
+img{
+    display:block;
+}

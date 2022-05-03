@@ -1,0 +1,171 @@
+/* cmd-z main page */
+
+/* entire page starts */
+* {
+margin: 0;
+padding: 0; 
+box-sizing: border-box;
+}
+
+body {
+font-family: consolas, "Andale Mono WT", monospace;
+background-color:  white;
+}
+
+::selection {
+color: #ff00ff;
+background: hsla(180, 100%, 50%, 33%);
+}
+/* entire page ends */
+
+/* header starts */
+header {
+background-color: black;
+color: white;
+font-size: calc(8px + 2vw); 
+text-align: center; 
+padding: 1% 2% 1% 2%;
+border-bottom: solid black 3px;
+outline: #00ffff solid 4px;
+outline-offset: 6px;
+}
+
+header p {
+padding-top: 0;
+padding-bottom: 1%
+}
+
+header h1 {
+font-size: calc(90px + 2vw);
+}
+
+.home {
+text-decoration: none;
+color: white;
+text-shadow: 3px 0px #00ffff, -3px 0px #ff00ff;
+}
+/* header ends */
+
+/* button column starts */
+.column-left {
+float: left; 
+width: 20%;
+}
+
+.button {
+background-color: black;
+border: solid black 3px;
+color: white;
+padding: 12% 14% 12% 12%;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: calc(9px + 2vw);
+cursor: pointer;
+border-radius: 6px;
+transition-duration: 0.5s;
+animation: blink .75s step-end infinite alternate;
+}
+
+.button:hover {
+background-color: #ff00ff;
+color: white;
+border: solid #ff00ff 3px;
+}
+
+@keyframes blink { 
+40% { 
+border-color: #ff00ff;} 
+}
+
+.column-left p {
+font-size: calc(7px + 1vw);
+padding-top: 8%;
+padding-right: 8%;
+}
+/* button column ends */
+
+/* main body starts */ 
+.row-body {
+float: left; 
+width: 100%;
+border-bottom: #00ffff solid 3px;
+padding: 3% 5% 3% 3%;
+}
+
+.column-body {
+float: left; 
+width: 80%; 
+background-color: ; 
+border-left: ;
+}
+
+h2 {
+color: black;
+text-shadow: -3px 0px #FFF200;
+}
+
+p {
+padding-top: 2%;
+}
+
+#body1 {
+font-size: calc(7px + 1vw);
+}
+
+#body2 {
+padding: 2% 0;
+font-size: calc(7px + 1vw);
+}
+
+#body3 {
+padding: 2% 0;
+font-size: calc(7px + 1vw);
+}
+
+#body4 {
+font-size: calc(7px + 1vw);
+}
+/* main body ends */
+
+/* footer start */
+footer {
+clear: both;  
+text-align: center; 
+padding: 1% 0% 4% 0%;
+font-size: calc(3px + 1vw);
+}
+
+footer p {
+  padding: 1%;
+}
+/* footer end */
+
+/*  phone/tablet screens */
+@media screen and (max-width: 992px) {
+.row-body {
+float: none; 
+width: 100%;}
+
+.column-left {
+float: none;
+width: 100%;
+padding-bottom: 3%;
+text-align: center;
+}
+
+.column-body {
+float: none; 
+width: 100%;}
+
+.column-left p {
+font-size: calc(10px + 1vw);
+padding-top: 3%;
+padding-right: 0;
+}
+
+.button {
+padding: 3%;
+}
+} /* media */
+/* phone/tablet screens end */

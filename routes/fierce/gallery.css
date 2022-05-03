@@ -1,0 +1,17 @@
+.front{
+			display: block;
+			position: absolute;
+
+		}
+.back{
+			display: block;
+			position:relative;
+
+		}
+
+.back:hover {
+			opacity: 0;
+			transition:  opacity 0.25s ease;
+		}
+
+		

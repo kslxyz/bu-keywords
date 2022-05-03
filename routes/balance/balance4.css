@@ -1,0 +1,185 @@
+*{
+margin: 0;
+box-sizing: border-box;}
+
+header{
+width: 100%;
+background-color: black;
+}
+
+body{
+ background-color: #f9f7f1;
+
+    font-family: 'Source Code Pro', monospace;
+color: lightblue;
+}
+
+p{
+margin-top: 20vw;
+margin-bottom: 20vw;
+font-size: calc(2vw + 10px)
+}
+
+h1{
+color: #f25246
+}
+
+img {
+width: 100%;
+max-width: 28%;
+height: auto;
+margin:2vw;
+}
+
+#big{
+max-width:70%}
+
+
+
+.part2{
+background-color: #f25246;
+padding: 3vw;
+color: white;
+}
+
+#p{
+padding: 3vw;
+}
+
+
+#relative{
+  position: relative;
+
+}
+
+#relative2{
+  position: relative;
+
+
+}
+
+#relative3{
+  position: relative;
+
+
+}
+
+#line{
+max-width: 200%;
+position: relative;
+bottom: 1000px;}
+
+
+
+.split {
+  height: 100%;
+  width: 50%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.left {
+  left: 0;
+}
+
+
+.right {
+  right: 0;
+  background-color: white;
+}
+
+/* If you want the content centered horizontally and vertically */
+.centered {
+
+  text-align: center;
+}
+
+/* Style the image inside the centered container, if needed */
+.centered img {
+
+}
+
+
+.container {
+  position: relative;
+  width: 100%;
+   
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute; 
+  bottom: 0; 
+ 
+  color: black; 
+  width: 70%;
+  transition: .5s ease;
+  opacity:0;
+  color: black;
+  font-size: 10px;
+  padding: 20px;
+  text-align: center;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.border{
+border: 1px solid black;
+margin-left: 10vw;
+margin-right: 10vw;
+padding: 5vw;}
+
+.rotate {
+  animation: rotation 10s;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
+
+.linear {
+  animation-timing-function: linear;
+}
+
+.infinite {
+  animation-iteration-count: infinite;
+}
+
+
+#two.rotate {
+  animation: rotation 10s;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(-359deg);
+  }
+}
+
+#two.linear {
+  animation-timing-function: linear;
+}
+
+#two.infinite {
+  animation-iteration-count: infinite;
+}
+
+

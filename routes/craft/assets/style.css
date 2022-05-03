@@ -1,0 +1,258 @@
+@charset "UTF-8";
+
+/*
+  Main Styles
+-----------------------*/
+
+
+h1 {
+
+font-family:'Press Start 2P'; 
+font-size: 17vw; 
+color: black; 
+width: 100%;
+padding: 5vw;
+
+}
+
+h2 {
+
+font-family:'Press Start 2P'; 
+font-size: 4vw; 
+color: black; 
+width: 100%;
+padding: 2vw;
+line-height: 10vh;
+
+}
+/*
+div {
+    position:relative;
+    display: inline;
+}
+
+
+
+
+#images{
+width: 70%;
+}
+*/
+
+.overlap{
+position: absolute;
+bottom: 0;
+right: 0;
+}
+
+
+
+#draggable {
+  color: white;
+  width: 5px;
+  height: 5px;
+  line-height: 50px;
+  white-space: nowrap;
+  text-align: center;
+  cursor: move;
+
+  
+  }
+  #draggable1 {
+  color: white;
+  width: 5px;
+  height: 5px;
+  line-height: 50px;
+  white-space: nowrap;
+  text-align: center;
+  cursor: move;
+
+  
+  }
+   #draggable2 {
+  color: white;
+  width: 5px;
+  height: 5px;
+  line-height: 50px;
+  white-space: nowrap;
+  text-align: center;
+  cursor: move;
+
+  
+  }
+  
+   #draggable3 {
+  color: white;
+  width: 5px;
+  height: 5px;
+  line-height: 50px;
+  white-space: nowrap;
+  text-align: center;
+  cursor: move;
+
+  
+  }
+ #draggable4 {
+  color: white;
+  width: 5px;
+  height: 5px;
+  line-height: 50px;
+  white-space: nowrap;
+  text-align: center;
+  cursor: move;
+
+  
+  }
+  
+#draggable5 {
+  color: white;
+  width: 5px;
+  height: 5px;
+  line-height: 50px;
+  white-space: nowrap;
+  text-align: center;
+  cursor: move;
+
+  
+  }
+  
+#draggable6 {
+  color: white;
+  width: 5px;
+  height: 5px;
+  line-height: 50px;
+  white-space: nowrap;
+  text-align: center;
+  cursor: move;
+
+  
+  }
+  
+#draggable7 {
+  color: white;
+  width: 5px;
+  height: 5px;
+  line-height: 50px;
+  white-space: nowrap;
+  text-align: center;
+  cursor: move;
+
+  
+  }
+
+#draggable8 {
+  color: white;
+  width: 5px;
+  height: 5px;
+  line-height: 50px;
+  white-space: nowrap;
+  text-align: center;
+  cursor: move;
+
+  
+  }
+#draggable9 {
+  color: white;
+  width: 5px;
+  height: 5px;
+  line-height: 50px;
+  white-space: nowrap;
+  text-align: center;
+  display: inline;
+  margin-left: auto;
+  margin-right: auto;
+  cursor: move;
+
+  
+  }
+#draggable10 {
+background-color: black;
+  color: white;
+  font-family:'Press Start 2P';
+  font-size: 1.2vw;
+  width: 45vw;
+  height: 50px;
+  line-height: 50px;
+  white-space: nowrap;
+    border-radius: 100px;
+  text-align: center;
+  cursor: move;
+
+  
+  }
+#draggable11 {
+background-color: black;
+  color: white;
+  font-family:'Press Start 2P';
+  font-size: 1.2vw;
+  width: 50vw;
+  height: 50px;
+  line-height: 50px;
+  white-space: nowrap;
+    border-radius: 100px;
+  text-align: center;
+  cursor: move;
+
+  
+  }
+  
+#draggable12 {
+  color: white;
+  width: 5px;
+  height: 5px;
+  display: inline;
+  margin-left: auto;
+  margin-right: auto;
+  white-space: nowrap;
+  text-align: center;
+  cursor: move;
+  }
+
+#draggable13 {
+  color: white;
+  background-color: black;
+  font-family:'Press Start 2P';
+  font-size: 2vw;
+   width: 55vw;
+  height: 50px;
+    line-height: 50px;
+  border-radius: 100px;
+  white-space: nowrap;
+  text-align: center;
+  cursor: move;
+  }
+  
+#draggable0{
+cursor: move;
+}
+
+
+
+body{
+box-sizing: border-box;
+border: 5px dotted white;
+margin: 2vw;
+}
+
+#border{
+box-sizing: border-box;
+border: 5px dotted white;
+margin: 2vw;
+}
+
+#collage{
+border-radius: 100px;
+margin: 5vw;
+}
+
+footer{
+font-family:'Press Start 2P'; 
+font-size: 2vw; 
+line-height: 10vh;
+margin: 2vw;
+}
+/*
+  Extras...
+-----------------------*/
+
+

@@ -1,0 +1,42 @@
+
+
+.headline {
+text-align: center;
+font-size: 200px;
+margin-left: auto;
+margin-right: auto;
+margin-top: 100px;
+font-family: ;
+}
+
+p {
+font-size: 40px;
+margin-left: 10%;
+margin-right: 10%;
+line-height: 48px;
+font-family: Times New Roman;
+}
+
+#content {
+width: 100%;
+}
+
+.circle {
+display: block;
+margin-top: -20%;
+margin-left: auto;
+margin-right: auto;
+width: 1200px;
+}
+
+center {
+margin-top: 100px;
+margin-bottom: 100px;}
+
+html { 
+  background: url(giphy.gif) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}

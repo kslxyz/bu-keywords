@@ -1,0 +1,77 @@
+@charset "UTF-8";
+
+h1 {text-align: center;
+	font-size: 200px;
+	margin: 5px;
+	padding: 5px;
+	background-color: hsl(0,0%,100%, .5);
+font-family: Frutiger, "Frutiger Linotype", Univers, Calibri, "Gill Sans", "Gill Sans MT", "Myriad Pro", Myriad, "DejaVu Sans Condensed", "Liberation Sans", "Nimbus Sans L", Tahoma, Geneva, "Helvetica Neue", Helvetica, Arial, sans-serif;}	
+.C {color: red;}
+
+.OO {color: orange;}
+
+.L {color: yellow;}
+
+.O {color: green;}
+
+.R {color: blue;}
+
+body {
+     background-color: hotpink;
+     -webkit-animation: random 40s infinite;
+     animation: random 40s infinite;}
+@keyframes  random {
+    5% { background-color: red; } 
+    10% { background-color: yellow; } 
+    15% { background-color: limegreen; } 
+    20% { background-color: cyan; }
+    25% { background-color: black; }  
+    30% { background-color: pink; }  
+	35% { background-color: aqua; } 
+	40% { background-color: blueviolet; } 
+	45% { background-color: chartreuse; } 
+	50% { background-color: darkmagenta; }
+	55% { background-color: fuchsia; } 
+    60% { background-color: greenyellow; } 
+    65% { background-color: plum; } 
+    70% { background-color: orange; }
+    75% { background-color: gray; }  
+    80% { background-color: aquamarine; }  
+	85% { background-color: crimson; } 
+	90% { background-color: forestgreen; } 
+	95% { background-color: gold; } 
+	100% { background-color: salmon; } 
+
+}
+
+p {color: white;
+	font-size: 22px;
+	text-align: center;
+	font-family: Frutiger, "Frutiger Linotype", Univers, Calibri, "Gill Sans", "Gill Sans MT", "Myriad Pro", Myriad, "DejaVu Sans Condensed", "Liberation Sans", "Nimbus Sans L", Tahoma, Geneva, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	margin: 10px;
+	padding: 10px;}
+
+div#picker {text-align: center;}	
+	
+label {text-align: center;
+	font-size: 50px;
+	font-family: Frutiger, "Frutiger Linotype", Univers, Calibri, "Gill Sans", "Gill Sans MT", "Myriad Pro", Myriad, "DejaVu Sans Condensed", "Liberation Sans", "Nimbus Sans L", Tahoma, Geneva, "Helvetica Neue", Helvetica, Arial, sans-serif;	
+	margin: 5px;
+	background-color: hsl(0,0%,100%, .5);
+	color: white;
+	padding: 5px;}
+
+input[type="color"] {
+  	padding: 0;
+  	margin: 10px;
+	border: none;
+	height: 100px;
+	width: 90%;
+	vertical-align: middle;}
+	
+footer { background-color: hsl(0,0%,100%, .5);
+		text-align: center;
+		padding: 5px;}
+	
+small {color: white;}
+	

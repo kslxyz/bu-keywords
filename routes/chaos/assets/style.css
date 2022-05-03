@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+*{
+  margin:0; box-sizing:
+  border-box;background-color: black;
+  background-image: url("https://media0.giphy.com/media/RF9WyGuttvnNe/giphy.gif");
+  color: white;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%;
+  padding: 3%;
+}
+
+p { 
+  text-align: center;
+  font-family: "monospace;", "monaco", monospace;
+  padding: 3%;
+}
+
